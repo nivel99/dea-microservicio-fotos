@@ -1,9 +1,8 @@
 <?php 
-// header('Access-Control-Allow-Origin: *'); // O restringe a tu dominio específico
-// header('Access-Control-Allow-Methods: POST');
-// header('Access-Control-Allow-Headers: Content-Type');
+ header('Access-Control-Allow-Origin: *'); // O restringe a tu dominio específico
+ header('Access-Control-Allow-Methods: POST');
+ header('Access-Control-Allow-Headers: Content-Type');
 
-/*
 require_once 'vendor/autoload.php';
 
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
@@ -40,8 +39,6 @@ if (isset($_FILES['file'])) {
         echo "Error al subir el archivo: " . $e->getMessage();
     }
 }
-*/
 
-echo "Prueba";
 
 ?>
